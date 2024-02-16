@@ -19,7 +19,7 @@
             <ul class="flex gap-14 items-center">
                
                 <li class="relative ">
-                    <span class="  text-red-600 z-10  text-2xl absolute bottom-2 left-[-6px] 
+                    <span id="card-count" class="  text-red-600 z-10  text-2xl absolute bottom-2 left-[-6px] 
                     ">0</span>
                     <i class="fa-solid fa-cart-shopping m-1">
 
@@ -51,9 +51,9 @@
                     <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/shajek.jpg" alt="Movie" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl">Sajek</h2>
-                        <p class="text-xl">Cost : 300</p>
+                        <p class="text-xl">Cost : <span>300</span></p>
                         <div class="card-actions ">
-                            <button class="btn btn-primary">Add to card</button>
+                            <button class="btn btn-primary add-btn">Add to card</button>
                         </div>
                     </div>
                 </div>
@@ -63,9 +63,9 @@
                     <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/Dhaka.jpg" alt="Movie" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl">Dhaka</h2>
-                        <p class="text-xl">Cost : 300</p>
+                        <p class="text-xl">Cost : <span>300</span></p>
                         <div class="card-actions ">
-                            <button class="btn btn-primary">Add to card</button>
+                            <button class="btn btn-primary add-btn">Add to card</button>
                         </div>
                     </div>
                 </div>
@@ -75,9 +75,9 @@
                     <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/shundar-ban.jpg" alt="Movie" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl">Khulna</h2>
-                        <p class="text-xl">Cost : 500</p>
+                        <p class="text-xl">Cost : <span>500</span></p>
                         <div class="card-actions ">
-                            <button class="btn btn-primary">Add to card</button>
+                            <button class="btn btn-primary add-btn">Add to card</button>
                         </div>
                     </div>
                 </div>
@@ -87,9 +87,9 @@
                     <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/coxBazar.jpg" alt="Movie" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-2xl">Cox,s Bazar</h2>
-                        <p class="text-xl">Cost : 500</p>
+                        <p class="text-xl">Cost : <span>500</span></p>
                         <div class="card-actions ">
-                            <button class="btn btn-primary">Add to card</button>
+                            <button class="btn btn-primary add-btn">Add to card</button>
                         </div>
                     </div>
                 </div>
@@ -102,6 +102,9 @@
             </div>
             <div class="space-y-4 text-center border-2 p-10 rounded-lg">
                 <h1 class="text-4xl">Card</h1>
+                <ul id="selected-card-container">
+
+                </ul>
                 <hr>
                 <p class="text-xl">Total Cost</p>
                 <div class="flex gap-1">
@@ -114,6 +117,7 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
