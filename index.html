@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom new project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-gray-700 p-4 ">
+        <nav class="flex justify-between m-auto text-white container">
+            <div class="w-28">
+                <img class="w-full" src="images/logo.png" alt="">
+            </div>
+            <ul class="flex gap-14 items-center">
+               
+                <li class="relative ">
+                    <span class="  text-red-600 z-10  text-2xl absolute bottom-2 left-[-6px] 
+                    ">0</span>
+                    <i class="fa-solid fa-cart-shopping m-1">
+
+                    </i>HOME</li>
+                <li class="uppercase">Setting</li>
+                <li class="w-20"><img src="images/man.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- banner section -->
+        <section class="container flex m-auto justify-between border-2">
+            <div class="max-w-xl space-y-6 m-10">
+                <h1 class="text-6xl">Lets Travel</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum expedita quae eum
+                    temporibus tenetur porro commodi doloribus omnis explicabo vero?</p>
+                <h3 class="text-3xl">Total Budget: 900 $</h3>
+            </div>
+            <div class="w-[400px]">
+                <img class="w-full" src="images/banner.png" alt="">
+            </div>
+        </section>
+        <!-- card section -->
+        <section class="flex gap-2 mt-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2  gap-4 flex-1">
+
+                <!-- card 1 start -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/shajek.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-2xl">Sajek</h2>
+                        <p class="text-xl">Cost : 300</p>
+                        <div class="card-actions ">
+                            <button class="btn btn-primary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 1 ends -->
+                <!-- card 2 start -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/Dhaka.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-2xl">Dhaka</h2>
+                        <p class="text-xl">Cost : 300</p>
+                        <div class="card-actions ">
+                            <button class="btn btn-primary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 ends -->
+                <!-- card 3 start -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/shundar-ban.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-2xl">Khulna</h2>
+                        <p class="text-xl">Cost : 500</p>
+                        <div class="card-actions ">
+                            <button class="btn btn-primary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 ends -->
+                <!-- card 4 start -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure class="w-48 p-1"><img class="w-full  rounded-lg" src="images/coxBazar.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-2xl">Cox,s Bazar</h2>
+                        <p class="text-xl">Cost : 500</p>
+                        <div class="card-actions ">
+                            <button class="btn btn-primary">Add to card</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 ends -->
+             
+               
+               
+
+
+            </div>
+            <div class="space-y-4 text-center border-2 p-10 rounded-lg">
+                <h1 class="text-4xl">Card</h1>
+                <hr>
+                <p class="text-xl">Total Cost</p>
+                <div class="flex gap-1">
+                    <button class="btn btn-primary">Bus +100</button>
+                    <button class="btn btn-primary">Train -200</button>
+                    <button class="btn btn-primary">Plane +500</button>
+                </div>
+                <hr>
+                <P class="text-xl">Grand Total Cost</P>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
