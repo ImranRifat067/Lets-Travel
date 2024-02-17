@@ -106,14 +106,14 @@
 
                 </ul>
                 <hr>
-                <p class="text-xl">Total Cost</p>
+                <p class="text-xl">Total Cost : <span id="total-cost">0</span> $</p>
                 <div class="flex gap-1">
-                    <button class="btn btn-primary">Bus +100</button>
-                    <button class="btn btn-primary">Train -200</button>
-                    <button class="btn btn-primary">Plane +500</button>
+                    <button onclick="gandTotal('bus')" class="btn btn-primary">Bus +100</button>
+                    <button onclick="gandTotal('train')" class="btn btn-primary">Train -200</button>
+                    <button onclick="gandTotal('plane')" class="btn btn-primary">Plane +500</button>
                 </div>
                 <hr>
-                <P class="text-xl">Grand Total Cost</P>
+                <P class="text-xl">Grand Total Cost : <span id="grand-total">0</span> $ </P>
             </div>
         </section>
     </main>
